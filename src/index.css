@@ -1,0 +1,13 @@
+.divGrande{
+  height: 150px; 
+  width: 50%;   
+  border-radius: 10px;
+
+}
+
+.digitos{
+  margin: auto;
+  height: 105px;
+  text-align: center;
+  border-radius: 10px;
+}
