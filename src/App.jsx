@@ -8,12 +8,15 @@ import './App.css'
 import SimpleCounter from "./simplecounter";
 
 
-function App() {
+function App(props) {
 
   return (
 		<>
-	<SimpleCounter  />,
-	
+	<SimpleCounter
+  uno = {props.digitoUno}
+  dos = {props.digitoDos}
+  tres = {props.digitoTres}
+  />
 		</>
 		
 		);
